@@ -4,7 +4,7 @@
  *  face value), needed for counting 15s in a cribbage hand.  Also provides
  *  methods to get the next smaller and larger rank of a given rank.
  *
- * @author Peter Schachte <schachte@unimelb.edu.au>
+ * @author Peter Schachte schachte@unimelb.edu.au
  */
 public enum CribbageRank {
     ACE('A'),

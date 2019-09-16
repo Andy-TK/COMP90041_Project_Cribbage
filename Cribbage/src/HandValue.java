@@ -1,11 +1,10 @@
-/**
- * This main class provides a series of static methods to calculate the value of
- * a hand for Cribbage Game. The methods fifteens, pairs, runs, flushes and
- * oneForHisNob represents the five rules to calculate the score of a hand.
- * Other methods are used for converting the input from the command line into
- * appropriate types for the methods of the rules. 
- * 
- * @author Ye Yang <yey11@student.unimelb.edu.au>
+/** This main class provides a series of static methods to calculate the value of
+ *  a hand for Cribbage Game. The methods fifteens, pairs, runs, flushes and
+ *  oneForHisNob represents the five rules to calculate the score of a hand.
+ *  Other methods are used for converting the input from the command line into
+ *  appropriate types for the methods of the rules.
+ *
+ *  @author Ye Yang <yey11@student.unimelb.edu.au>
  */
 public class HandValue {
 
@@ -25,7 +24,7 @@ public class HandValue {
      */
     public static void main(String[] args) {
 
-        /** The suit is used to store the card suits. */
+        /** The suits is used to store the card suits. */
         char[] suits = getSuit(args);
 
         /** The ranks is used to store the card ranks. */
@@ -134,7 +133,7 @@ public class HandValue {
     /** This method calculates the points based on the rule of one for his nob.
      *  @param ranks an CribbageRank array of the input card ranks.
      *  @param suits a char array of the input card suits.
-     *  @return the integer points of on for his nob.
+     *  @return the integer points of one for his nob.
      */
     private static int oneForHisNob(CribbageRank[] ranks, char[] suits) {
         int points = 0;
@@ -203,7 +202,7 @@ public class HandValue {
 
     /** This method constructs a char array of input card suits.
      *  @param args a double-character string array of input card ranks and suits.
-     *  @return an char array of input card suits.
+     *  @return a char array of input card suits.
      */
     private static char[] getSuit(String[] args) {
         char[] suits = new char[args.length];
