@@ -18,7 +18,7 @@ The hand then proceeds to the _play_, which is outside the scope of this project
 
 All of these points are totalled to ﬁnd the value of a hand. For example (using A for ace, T for 10, J for jack, Q for queen, and K for king, and ♣, ♦, ♥, and ♠ as clubs, diamonds, hearts, and spades):
 
-<img src="" alt="example" width="70%">
+<img src="https://github.com/Andy-TK/COMP90041_Project_Cribbage/blob/master/example.png" alt="example" width="70%">
 
 Following the show, the cards are all collected and shuﬄed, and the person to the left of the dealer becomes the dealer for the next hand. The game continues this way until someone scores 121 points. Please see http://www.pagat.com/adders/crib6.html for a more complete description of the rules of cribbage. However, what is presented above will be enough to complete the project.
 
