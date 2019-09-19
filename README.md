@@ -39,4 +39,4 @@ For this project, you may select either of the below programs to develop. The �
 
 For both programs, cards should be entered on the command line as two-character strings, the ﬁrst being an upper-case A for Ace, K for King, Q for Queen, J for Jack, T for Ten, or digit between 2 and 9 for ranks 2–9. The second character should be a C for Clubs (♣), D for Diamonds (♦), H for Hearts (♥), or a S for Spades (♠). For the SelectHand program, output should follow the same format, with selected cards separated by a single space. For both programs, the output should not contain any extra characters, except the single line should end with a newline character.
 
-For more details, please check the [project specifications]().
+For more details, please check the [project specifications](https://github.com/Andy-TK/COMP90041_Project_Cribbage/blob/master/cribbage.pdf).
