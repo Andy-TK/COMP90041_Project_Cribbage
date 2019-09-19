@@ -22,4 +22,21 @@ All of these points are totalled to ﬁnd the value of a hand. For example (usin
 
 Following the show, the cards are all collected and shuﬄed, and the person to the left of the dealer becomes the dealer for the next hand. The game continues this way until someone scores 121 points. Please see http://www.pagat.com/adders/crib6.html for a more complete description of the rules of cribbage. However, what is presented above will be enough to complete the project.
 
+#### 2. What is the task?
+For this project, you may select either of the below programs to develop. The ﬁrst is the easier project; students looking for a bigger challenge may want to select the second. **_Remember: you only need to do one of these._**
 
+**Evaluate a hand**
+> _You will write a Java main program that receives 5 cards on the command line and will print out only the number of points the hand comprising the ﬁrst four of those cards would score if the ﬁfth card were the start card. The table above shows some examples of inputs and the score your program should print._
+>
+> _For this project, you should submit a source ﬁle called `HandValue.java`, plus any other Java source ﬁles needed for the application. The correctness of your program will be assessed based on the correctness of the output produced for a number of input hands._
+
+**Select a hand**
+> _You will write a Java main program that receives 4–6 cards on the command line and will print out which four should be kept to maximise your chances of having a good hand once the start card is selected. Of course, if 4 cards are speciﬁed on the command line, there is only one choice of hand; if 5 are speciﬁed, there are 5 possible choices; if 6 are speciﬁed, there are 15 possibilities._
+>
+> _To make the best choice, you should consider each of the possible selections of four cards to keep (the others being discarded), and select the one with the greatest `expected score`. The expected score for a selection is the average hand value of the four cards to be kept taken with each of the possible start cards (every card in a full deck except the 4–6 speciﬁed on the command line, which cannot be the start card)._
+>
+> _For this project you should submit a source ﬁle called `SelectHand.java`, plus any other Java source ﬁles needed for the application. The correctness of your program will be assessed based on the optimality of the output produced for a number of input hands. That is, if the hand your program selects is almost as good as the optimal choice, you will receive most of the marks for that test._
+
+For both programs, cards should be entered on the command line as two-character strings, the ﬁrst being an upper-case A for Ace, K for King, Q for Queen, J for Jack, T for Ten, or digit between 2 and 9 for ranks 2–9. The second character should be a C for Clubs (♣), D for Diamonds (♦), H for Hearts (♥), or a S for Spades (♠). For the SelectHand program, output should follow the same format, with selected cards separated by a single space. For both programs, the output should not contain any extra characters, except the single line should end with a newline character.
+
+For more details, please check the [project specifications]().
