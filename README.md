@@ -1,7 +1,7 @@
 ### COMP90041 Project 2: Cribbage Game
 This is the Project 2 for COMP90041(Programming and Software Development) from the University of Melbourne.
 
-#### 1. The Game of Cribbage
+### 1. The Game of Cribbage
 Cribbage is a very old card game, dating to early 17th century England. The game can be played by two to six (and possibly more) players. The object of the game is to be the ﬁrst player to reach 121 points. Game play begins with the dealer dealing each player 4 to 6 cards (depending on how many are playing). Each player then selects four cards to keep and discards the rest. The cards discarded for all the players form an extra hand, called the _crib_ or _box_, which the dealer gets to count as a bonus. Next the player preceding the dealer cuts the deck to select an extra card, called the _start_ card.
 
 The hand then proceeds to the _play_, which is outside the scope of this project, followed by the _show_, where each player counts the points in their hand according to the rules below, and adds the total to their running score. For this phase, the start card is usually considered as part of _each_ player’s hand, so each player establishes the value of a 5 card hand. Points are scored for certain combinations of cards according to the following rules:
@@ -22,7 +22,7 @@ All of these points are totalled to ﬁnd the value of a hand. For example (usin
 
 Following the show, the cards are all collected and shuﬄed, and the person to the left of the dealer becomes the dealer for the next hand. The game continues this way until someone scores 121 points. Please see http://www.pagat.com/adders/crib6.html for a more complete description of the rules of cribbage. However, what is presented above will be enough to complete the project.
 
-#### 2. What is the task?
+### 2. What is the task?
 For this project, you may select either of the below programs to develop. The ﬁrst is the easier project; students looking for a bigger challenge may want to select the second. **_Remember: you only need to do one of these._**
 
 **Evaluate a hand**
